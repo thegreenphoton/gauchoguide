@@ -1,0 +1,81 @@
+Course,Prerequisites
+ECE 120A - IC Circuit Design + Fabrication I,"ECE 132 - Intro to Solid-State Electronic Devices"
+ECE 120B - IC Circuit Design + Fabrication II,"ECE 120A - IC Circuit Design + Fabrication I"
+ECE 122A - VLSI Principles I,"ECE 152A - Digital Design Princples"
+ECE 122B - VLSI Principles II,"ECE 122A - VLSI Principles I"
+ECE 130A - Signal Analysis and Processing I,
+ECE 130B - Signal Analysis and Processing II,"ECE 130A - Signal Analysis and Processing I"
+ECE 130C - Applied Linear Algebra,
+ECE 132 - Intro to Solid-State Electronic Devices,
+ECE 133 - Intro to Optimization and Learning,
+ECE 134 - Intro to Fields and Waves,
+ECE 135 - Optical Fiber Communication,"ECE 132 - Intro to Solid-State Electronic Devices,ECE 134 - Intro to Fields and Waves"
+ECE 136A - Intro to Optics and Photonics,
+ECE 136B - Optics and Imaging,
+ECE 136C - Quantum Photonics,
+ECE 137A - Circuits and Electronics I,"ECE 130A - Signal Analysis and Processing I,ECE 132 - Intro to Solid-State Electronic Devices"
+ECE 137B - Circuits and Electronics II,"ECE 137A - Circuits and Electronics I"
+ECE 139 - Probability and Statistics,
+ECE 142 - Intro to Power Electronics,"ECE 132 - Intro to Solid-State Electronic Devices,ECE 134 - Intro to Fields and Waves,ECE 137A - Circuits and Electronics I"
+ECE 144 - Electromagnetic Fields and Waves,"ECE 134 - Intro to Fields and Waves"
+ECE 145A - Communication Electronics I,"ECE 137A - Circuits and Electronics I,ECE 137B - Circuits and Electronics II"
+ECE 145B - Commuincation Electronics II,"ECE 145A - Communication Electronics I"
+ECE 146A - Digital Communication Fundamentals,"ECE 130A - Signal Analysis and Processing I,ECE 130B - Signal Analysis and Processing II"
+ECE 146B - Communication Systems Design,"ECE 146A - Digital Communication Fundamentals"
+ECE 147A - Feedback Control Systems - Theory and Design,"ECE 130A - Signal Analysis and Processing I,ECE 130B - Signal Analysis and Processing II"
+ECE 147B - Digital Control Systems - Theory and Design,"ECE 147A - Feedback Control Systems - Theory and Design"
+ECE 147C - Control Systems Design Project,"ECE 147A - Feedback Control Systems - Theory and Design"
+ECE 148 - Applications of Signal Analysis and Processing,"ECE 130A - Signal Analysis and Processing I,ECE 130B - Signal Analysis and Processing II"
+ECE 149 - Game Theory for Networked Systems,
+ECE 152A - Digital Design Princples,
+ECE 153A - Hardware/Software Interface,
+ECE 153B - Sensor and Peripheral Interface Design,"ECE 152A - Digital Design Princples"
+ECE 154A - Intro to Computer Architecture,"ECE 152A - Digital Design Princples"
+ECE 154B - Advanced Computer Architecture,"ECE 154A - Intro to Computer Architecture"
+ECE 157A - Machine Learning in Design and Test Automation,"ECE 152A - Digital Design Princples"
+ECE 157B - Artificial Intelligence in Design and Test Automation,"ECE 157A - Machine Learning in Design and Test Automation"
+ECE 158 - Digital Signal Processing,"ECE 130A - Signal Analysis and Processing I,ECE 130B - Signal Analysis and Processing II"
+ECE 162A - Quantum Description of Electronic Metals,"ECE 130A - Signal Analysis and Processing I,ECE 130B - Signal Analysis and Processing II,ECE 134 - Intro to Fields and Waves"
+ECE 162B - Fundamentals of Solid State,"ECE 162A - Quantum Description of Electronic Metals"
+ECE 178 - Intro to Digital Image and Video Processing,
+ECE 179D - Intro to Robotics - Dynamics and Control,"ECE 130A - Signal Analysis and Processing I"
+ECE 179P - Intro to Robotics - Planning and Kinematics,"ECE 179D - Intro to Robotics - Dynamics and Control"
+ECE 180 - Intro to Deep Learning,
+ECE 181 - Intro to Computer Vision,
+ECE 183 - Nonlinear Phenomena,
+ECE 184 - Intro to Game Development,"ECE 130A - Signal Analysis and Processing I,ECE 130B - Signal Analysis and Processing II"
+ECE 186 - Probabilistic Machine Learning
+ECE 188A - Senior EE Capstone,"ECE 130A - Signal Analysis and Processing I,ECE 130B - Signal Analysis and Processing II"
+ECE 188B - Senior EE Capstone,"ECE 188A - Senior EE Capstone"
+ECE 188C - Senior EE Capstone,"ECE 188B - Senior EE Capstone"
+ECE 189A - Senior Computer Systems Project,"ECE 153B - Sensor and Peripheral Interface Design"
+ECE 189B - Senior Computer Systems Project,"ECE 189A - Senior Computer Systems Project"
+ECE 189C - Senior Computer Systems Project,"ECE 189B - Senior Computer Systems Project"
+CS 111 - Intro to Computational Science
+CS 130A - Data Structures and Algorithms I
+CS 130B - Data Structures and Algorithms II,"CS 130A - Data Structures and Algorithms I"
+CS 134 - Randomized Algorithms,
+CS 138 - Automata and Formal Languages,
+CS 140 - Parallel Computing,"CS 130A - Data Structures and Algorithms I"
+CS 148 - Computer Science Project,
+CS 154 - Computer Architecture,
+CS 156 - Advanced Applications Programming,
+CS 160 - Translation of Programming Languages,"CS 130A - Data Structures and Algorithms I,CS 138 - Automata and Formal Languages"
+CS 162 - Programming Languages,"CS 130A - Data Structures and Algorithms I,CS 138 - Automata and Formal Languages"
+CS 165A - Artificial Intelligence,"CS 130A - Data Structures and Algorithms I"
+CS 165B - Machine Learning,"CS 130A - Data Structures and Algorithms I"
+CS 170 - Operating Systems,"CS 130A - Data Structures and Algorithms I, CS 154 - Computer Architecture OR ECE 154A - Intro to Computer Architecture"
+CS 171 - Distributed Systems,"CS 130A - Data Structures and Algorithms I"
+CS 174A - Fundamentals of Database Systems,"CS 130A - Data Structures and Algorithms I"
+CS 174B - Implementation Techniques of Databases,"CS 130B - Data Structures and Algorithms II"
+CS 176A - Intro to Computer Communication Networks,
+CS 176B - Network Computing,"CS 176A - Intro to Computer Communication Networks"
+CS 176C - Advanced Topics in Internet Computing,"CS 176A - Intro to Computer Communication Networks"
+CS 177 - Computer Security,"CS 170 - Operating Systems"
+CS 178 - Intro to Cryptography,
+CS 180 - Computer Graphics,"CS 130A - Data Structures and Algorithms I"
+CS 181 - Intro to Computer Vision,
+CS 184 - Mobile Application Development,"CS 156 - Advanced Applications Programming,CS 130A - Data Structures and Algorithms I"
+CS 185 - Human Computer Interaction,
+CS 189A - CS Capstone,"CS 156 - Advanced Applications Programming"
+CS 189B - CS Capstone,"CS 189A - CS Capstone"

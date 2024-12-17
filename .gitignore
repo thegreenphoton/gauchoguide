@@ -1,0 +1,20 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+tensorflow_env/
+
+
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore large files
+*.log
+# *.csv
+*.zip
+*.mp4
