@@ -1,0 +1,116 @@
+/* ElectivesPage.css */
+
+/* General Page Styling */
+.electives-page {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styles */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003660; /* UCSB Blue */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Section Titles */
+h2 {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #FDB515; /* UCSB Gold */
+    color: #003660; /* UCSB Blue */
+}
+
+/* Sequence Section */
+.sequences-section {
+    margin-bottom: 30px;
+}
+
+.sequence-card {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #003660; /* Blue border for sequences */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sequence-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #003660; /* UCSB Blue */
+}
+
+/* Course List */
+.course-list {
+    list-style: none;
+    padding: 0;
+}
+
+.course-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e0e6f8; /* Light Blue */
+    border-radius: 4px;
+    color: #003660;
+    font-weight: 500;
+}
+
+/* Electives Section */
+.electives-section {
+    margin-bottom: 30px;
+}
+
+.electives-list {
+    list-style: none;
+    padding: 0;
+}
+
+.elective-item {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    background-color: #fff5e1; /* Light Gold */
+    border: 1px solid #FDB515; /* UCSB Gold */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #003660;
+}
+
+.relevance {
+    font-size: 0.9em;
+    color: #003660; /* UCSB Blue */
+    font-weight: bold;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Home Button */
+.home-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #003660; /* UCSB Blue */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.home-button:hover {
+    background-color: #001f3f; /* Darker Blue on hover */
+}

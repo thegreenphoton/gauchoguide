@@ -1,0 +1,121 @@
+/* UCSB Themed Colors */
+:root {
+    --ucsb-blue: #003660;
+    --ucsb-gold: #ffb81c;
+    --background-light: #f7f9fc;
+    --text-dark: #003660;
+    --button-hover: #00509e;
+}
+
+/* General Container Styling */
+.manual-careers-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title and Descriptions */
+.title {
+    color: var(--ucsb-blue);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Career Selection Containers */
+.career-selection {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Available Careers List */
+.available-careers,
+.selected-careers {
+    flex: 1;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--ucsb-blue);
+    font-size: 1.5em;
+}
+
+/* Career Items */
+.careers-list,
+.selected-list {
+    list-style: none;
+    padding: 0;
+}
+
+.career-item,
+.selected-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+    padding: 10px;
+    background-color: var(--ucsb-gold);
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Buttons */
+.select-button,
+.remove-button {
+    padding: 8px 12px;
+    background-color: var(--ucsb-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.select-button:hover,
+.remove-button:hover {
+    background-color: var(--button-hover);
+}
+
+/* Submit and Back Buttons */
+.buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-button,
+.back-button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 1em;
+    background-color: var(--ucsb-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover,
+.back-button:hover {
+    background-color: var(--button-hover);
+}
+
+.submit-button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}

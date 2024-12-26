@@ -1,0 +1,82 @@
+Course,Field,Unit_Count,A_Count,B_Count,C_Count,D_Count,F_Count,GPT_concept_rating,CE_required,CE_Elective
+ECE 120A - IC Circuit Design + Fabrication I,Engineering,4,145,67,5,0,0,8,0,0
+ECE 120B - IC Circuit Design + Fabrication II,Engineering,4,109,36,4,0,1,10,0,0
+ECE 122A - VLSI Principles I,Engineering,4,35,46,2,0,6,7,0,1
+ECE 122B - VLSI Principles II,Engineering,4,20,14,2,1,2,8,0,1
+ECE 130A - Signal Analysis and Processing I,Engineering,4,111,141,76,25,20,7,0,1
+ECE 130B - Signal Analysis and Processing II,Engineering,4,109,118,42,5,7,8,0,1
+ECE 130C - Applied Linear Algebra,Engineering,4,53,32,22,8,5,6,0,1
+ECE 132 - Intro to Solid-State Electronic Devices,Engineering,4,115,204,83,13,7,8,0,0
+ECE 133 - Intro to Optimization and Learning,Engineering,4,8,4,0,0,0,6,0,1
+ECE 134 - Intro to Fields and Waves,Engineering,4,175,134,51,27,14,6,0,0
+ECE 135 - Optical Fiber Communication,Engineering,4,37,25,5,4,0,7,0,0
+ECE 136A - Intro to Optics and Photonics,Engineering,4,12,0,0,0,0,8,0,0
+ECE 136B - Optics and Imaging,Engineering,4,19,8,5,0,0,9,0,0
+ECE 136C - Quantum Photonics,Engineering,4,52,1,0,0,0,10,0,0
+ECE 137A - Circuits and Electronics I,Engineering,4,134,138,93,11,9,7,0,0
+ECE 137B - Circuits and Electronics II,Engineering,4,115,174,80,3,3,8,0,0
+ECE 139 - Probability and Statistics,Engineering,4,463,222,62,0,4,7,0,0
+ECE 142 - Intro to Power Electronics,Engineering,4,157,32,5,1,0,8,0,0
+ECE 144 - Electromagnetic Fields and Waves,Engineering,4,96,17,4,3,0,9,0,0
+ECE 145A - Communication Electronics I,Engineering,5,33,38,9,0,0,8,0,0
+ECE 145B - Commuincation Electronics II,Engineering,5,37,19,1,0,1,9,0,0
+ECE 146A - Digital Communication Fundamentals,Engineering,5,58,14,2,0,0,8,0,0
+ECE 146B - Communication Systems Design,Engineering,5,24,13,3,1,1,9,0,0
+ECE 147A - Feedback Control Systems - Theory and Design,Engineering,5,72,50,21,1,0,8,0,1
+ECE 147B - Digital Control Systems - Theory and Design,Engineering,5,43,25,14,1,1,9,0,1
+ECE 147C - Control Systems Design Project,Engineering,5,44,1,0,0,0,8,0,0
+ECE 148 - Applications of Signal Analysis and Processing,Engineering,4,89,17,0,0,2,9,0,0
+ECE 149 - Game Theory for Networked Systems,Engineering,4,33,35,22,7,6,7,0,1
+ECE 152A - Digital Design Princples,Engineering,5,153,171,91,8,10,8,1,0
+ECE 153A - Hardware/Software Interface,Engineering,4,86,48,1,2,5,8,0,1
+ECE 153B - Sensor and Peripheral Interface Design,Engineering,4,175,110,36,3,0,9,1,0
+ECE 154A - Intro to Computer Architecture,Engineering,4,235,168,25,5,1,8,1,0
+ECE 154B - Advanced Computer Architecture,Engineering,4,72,18,1,3,2,9,0,1
+ECE 157A - Machine Learning in Design and Test Automation,Engineering,4,132,30,2,0,1,7,0,1
+ECE 157B - Artificial Intelligence in Design and Test Automation,Engineering,4,116,17,3,0,0,8,0,1
+ECE 158 - Digital Signal Processing,Engineering,4,67,15,2,0,0,9,0,0
+ECE 162A - Quantum Description of Electronic Metals,Engineering,4,42,26,2,1,0,9,0,0
+ECE 162B - Fundamentals of Solid State,Engineering,4,49,5,0,1,0,9,0,0
+ECE 178 - Intro to Digital Image and Video Processing,Engineering,4,107,101,37,14,8,8,0,1
+ECE 179D - Intro to Robotics - Dynamics and Control,Engineering,4,43,25,9,0,1,9,0,1
+ECE 179P - Intro to Robotics - Planning and Kinematics,Engineering,4,28,19,5,2,0,8,0,1
+ECE 180 - Intro to Deep Learning,Engineering,4,130,72,8,3,0,8,0,1
+ECE 181 - Intro to Computer Vision,Engineering,4,139,130,31,3,3,9,0,1
+ECE 183 - Nonlinear Phenomena,Engineering,4,38,17,6,1,0,9,0,0
+ECE 184 - Intro to Game Development,Engineering,4,23,6,3,1,0,7,0,1
+ECE 186 - Probabilistic Machine Learning,Engineering,4,1,1,1,0,0,8,0,1
+ECE 188A - Senior EE Capstone,Engineering,4,291,25,0,0,0,7,0,0
+ECE 188B - Senior EE Capstone,Engineering,4,286,28,0,0,0,7,0,0
+ECE 188C - Senior EE Capstone,Engineering,4,276,37,0,2,0,7,0,0
+ECE 189A - Senior Computer Systems Project,Engineering,4,202,32,1,0,0,8,0,0
+ECE 189B - Senior Computer Systems Project,Engineering,4,208,23,3,1,0,8,0,0
+ECE 189C - Senior Computer Systems Project,Engineering,4,183,40,7,2,0,8,0,0
+CS 111 - Intro to Computational Science,CS,4,323,92,37,4,8,8,0,0
+CS 130A - Data Structures and Algorithms I,CS,4,387,174,55,5,10,8,1,0
+CS 130B - Data Structures and Algorithms II,CS,4,304,195,41,3,7,9,0,1
+CS 134 - Randomized Algorithms,CS,4,304,195,41,3,7,9,0,0
+CS 138 - Automata and Formal Languages,CS,4,452,157,52,16,5,8,0,1
+CS 140 - Parallel Computing,CS,4,84,95,30,9,1,9,0,0
+CS 148 - Computer Science Project,CS,4,273,9,2,0,1,8,0,0
+CS 154 - Computer Architecture,CS,4,367,183,29,4,8,7,0,0
+CS 156 - Advanced Applications Programming,CS,4,426,10,1,0,1,8,1,0
+CS 160 - Translation of Programming Languages,CS,4,270,83,26,15,28,9,0,1
+CS 162 - Programming Languages,CS,4,268,91,24,0,10,8,0,1
+CS 165A - Artificial Intelligence,CS,4,287,97,14,0,7,8,0,1
+CS 165B - Machine Learning,CS,4,268,97,21,2,4,8,0,1
+CS 170 - Operating Systems,CS,4,209,165,82,5,10,7,0,1
+CS 171 - Distributed Systems,CS,4,276,120,53,15,8,9,0,1
+CS 174A - Fundamentals of Database Systems,CS,4,207,97,24,6,13,8,0,1
+CS 174B - Implementation Techniques of Databases,CS,4,104,68,14,1,3,9,0,0
+CS 176A - Intro to Computer Communication Networks,CS,4,321,142,53,16,4,7,0,1
+CS 176B - Network Computing,CS,4,185,75,7,2,3,8,0,1
+CS 176C - Advanced Topics in Internet Computing,CS,4,116,33,6,3,3,8,0,1
+CS 177 - Computer Security,CS,4,182,125,38,13,6,7,0,1
+CS 178 - Intro to Cryptography,CS,4,94,80,30,1,6,9,0,1
+CS 180 - Computer Graphics,CS,4,146,127,16,3,5,8,0,0
+CS 181 - Intro to Computer Vision,CS,4,136,87,21,2,3,9,0,0
+CS 184 - Mobile Application Development,CS,4,257,68,13,0,7,7,0,0
+CS 185 - Human Computer Interaction,CS,4,338,90,13,2,0,7,0,0
+CS 189A - CS Capstone,CS,4,283,11,1,0,1,8,0,0
+CS 189B - CS Capstone,CS,4,293,5,0,0,0,8,0,0
+

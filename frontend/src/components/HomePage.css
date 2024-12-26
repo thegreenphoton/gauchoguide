@@ -1,0 +1,111 @@
+/* General Page Styles */
+.home-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to right, #003660, #02538d); /* Gradient UCSB Blue */
+    height: 100vh;
+    color: #FFD700; /* UCSB Gold */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+/* Header Section */
+.header {
+    margin-bottom: 30px;
+}
+
+.home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.home-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #FFD700;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent White */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Description */
+.description {
+    font-size: 1.1rem;
+    color: #FFD700; /* Gold */
+}
+
+/* Options Container */
+.options-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White Background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.options-header {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #003660;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.home-button, .secondary-button {
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-button {
+    background-color: #FFD700; /* Gold */
+    color: #003660; /* Blue */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.home-button:hover {
+    background-color: #ffcc33; /* Light Gold */
+}
+
+.secondary-button {
+    background-color: #003660; /* UCSB Blue */
+    color: #FFD700; /* Gold */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.secondary-button:hover {
+    background-color: #001f3f; /* Dark Blue */
+}
+
+/* Footer Section */
+.footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #FFD700;
+    opacity: 0.8;
+}

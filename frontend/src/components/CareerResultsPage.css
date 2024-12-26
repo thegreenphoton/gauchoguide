@@ -1,0 +1,74 @@
+/* CareerResultsPage.css */
+
+/* General Container */
+.results-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f5f5f5; /* Light Gray Background */
+    min-height: 100vh;
+}
+
+/* Header */
+.results-container h1 {
+    color: #003660; /* UCSB Blue */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Career List */
+.results-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.results-list li {
+    background-color: #FDB515; /* UCSB Gold */
+    color: #003660; /* UCSB Blue */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.results-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.results-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Electives Button */
+.results-button.electives {
+    background-color: #003660; /* UCSB Blue */
+    color: white;
+}
+
+.results-button.electives:hover {
+    background-color: #001f3f; /* Darker Blue */
+}
+
+/* Home Button */
+.results-button.home {
+    background-color: #FDB515; /* UCSB Gold */
+    color: #003660;
+}
+
+.results-button.home:hover {
+    background-color: #ffcc33; /* Lighter Gold */
+}

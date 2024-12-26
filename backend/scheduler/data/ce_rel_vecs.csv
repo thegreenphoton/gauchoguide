@@ -1,0 +1,81 @@
+Course,Software Engineer,Embedded Systems Engineer,Hardware Engineer,Machine Learning Engineer,FPGA Engineer,Robotics Engineer,Network Engineer,Cybersecurity Engineer,VLSI Design Engineer,Electrical Engineer,Data Engineer,AI Research Scientist,Cloud Architect,DevOps Engineer,ASIC Design Engineer
+ECE 120A - IC Circuit Design + Fabrication I,20,60,100,20,60,40,20,20,100,80,20,20,20,20,100
+ECE 120B - IC Circuit Design + Fabrication II,20,60,100,20,80,40,20,20,100,80,20,20,20,20,100
+ECE 122A - VLSI Principles I,40,80,100,20,100,40,20,20,100,80,20,20,20,20,100
+ECE 122B - VLSI Principles II,20,80,100,20,100,40,20,20,100,80,20,20,20,20,100
+ECE 130A - Signal Analysis and Processing I,40,60,60,40,60,60,60,40,40,80,40,40,40,40,60
+ECE 130B - Signal Analysis and Processing II,40,60,60,60,60,60,60,40,40,80,60,60,40,40,60
+ECE 130C - Applied Linear Algebra,60,60,60,80,60,60,40,40,60,60,80,80,40,40,60
+ECE 132 - Intro to Solid-State Electronic Devices,20,80,100,20,80,40,20,20,100,100,20,20,20,20,100
+ECE 133 - Intro to Optimization and Learning,60,60,60,100,60,80,40,40,60,60,80,100,40,60,60
+ECE 134 - Intro to Fields and Waves,20,80,100,20,80,60,60,40,80,100,20,20,40,40,80
+ECE 135 - Optical Fiber Communication,20,60,80,20,60,40,100,40,40,100,20,20,60,40,60
+ECE 136A - Intro to Optics and Photonics,20,60,80,20,60,40,40,20,60,100,20,20,40,20,60
+ECE 136B - Optics and Imaging,20,60,80,20,60,40,40,20,60,100,20,40,60,20,60
+ECE 136C - Quantum Photonics,20,40,60,40,40,40,20,20,40,80,40,100,20,20,40
+ECE 137A - Circuits and Electronics I,20,80,100,20,80,40,20,20,100,100,20,20,20,20,100
+ECE 137B - Circuits and Electronics II,20,80,100,20,80,40,20,20,100,100,20,20,20,20,100
+ECE 139 - Probability and Statistics,80,60,60,100,60,60,60,60,40,60,100,100,60,60,40
+ECE 142 - Intro to Power Electronics,20,80,100,20,80,60,20,20,80,100,40,20,20,20,80
+ECE 144 - Electromagnetic Fields and Waves,20,80,100,20,80,60,60,20,80,100,20,20,40,20,80
+ECE 145A - Communication Electronics I,20,80,100,20,80,40,80,20,80,100,20,20,40,20,80
+ECE 145B - Commuincation Electronics II,20,80,100,20,80,40,80,20,100,100,20,20,40,20,100
+ECE 146A - Digital Communication Fundamentals,20,60,80,40,60,40,100,60,60,80,40,40,60,40,60
+ECE 146B - Communication Systems Design,20,60,80,40,60,40,100,60,60,80,40,40,60,40,60
+ECE 147A - Feedback Control Systems - Theory and Design,20,80,80,40,80,100,40,20,60,100,40,40,40,20,60
+ECE 147B - Digital Control Systems - Theory and Design,20,80,80,40,80,100,40,20,60,100,40,40,40,20,60
+ECE 147C - Control Systems Design Project,20,80,100,40,80,100,40,20,60,100,40,40,40,20,80
+ECE 148 - Applications of Signal Analysis and Processing,40,60,80,80,60,60,60,40,60,80,60,80,40,40,60
+ECE 149 - Game Theory for Networked Systems,60,40,40,80,40,60,100,60,40,60,80,80,60,60,40
+ECE 152A - Digital Design Princples,40,100,100,40,100,60,40,40,100,100,40,40,40,60,100
+ECE 153A - Hardware/Software Interface,60,100,80,40,80,60,40,60,80,80,40,40,60,100,80
+ECE 153B - Sensor and Peripheral Interface Design,40,100,100,40,100,60,80,60,100,100,40,40,60,80,100
+ECE 154A - Intro to Computer Architecture,80,100,100,60,100,60,60,80,100,100,60,60,80,100,100
+ECE 154B - Advanced Computer Architecture,80,100,100,60,100,60,60,80,100,100,60,60,80,100,100
+ECE 157A - Machine Learning in Design and Test Automation,60,80,80,100,80,60,40,60,80,80,100,100,60,60,80
+ECE 157B - Artificial Intelligence in Design and Test Automation,60,80,80,100,80,60,40,60,80,80,100,100,60,60,80
+ECE 158 - Digital Signal Processing,60,80,80,100,80,60,60,40,60,80,100,100,40,60,60
+ECE 162A - Quantum Description of Electronic Metals,20,60,100,20,60,40,20,20,100,100,20,40,20,20,100
+ECE 162B - Fundamentals of Solid State,20,80,100,20,80,40,20,20,100,100,20,40,20,20,100
+ECE 178 - Intro to Digital Image and Video Processing,60,60,60,100,60,60,40,40,40,60,100,100,40,60,40
+ECE 179D - Intro to Robotics - Dynamics and Control,40,80,80,60,80,100,40,40,60,80,60,60,40,40,60
+ECE 179P - Intro to Robotics - Planning and Kinematics,40,80,80,60,80,100,40,40,60,80,60,60,40,40,60
+ECE 180 - Intro to Deep Learning,80,60,40,100,60,60,40,60,40,40,100,100,60,60,40
+ECE 181 - Intro to Computer Vision,80,60,40,100,60,80,40,60,40,40,100,100,40,60,40
+ECE 183 - Nonlinear Phenomena,40,60,80,80,60,60,40,40,60,80,80,80,40,40,60
+ECE 184 - Intro to Game Development,100,40,40,60,40,40,40,40,20,40,40,60,60,80,20
+ECE 186 - Probabilistic Machine Learning,80,60,40,100,60,60,40,60,40,40,100,100,60,60,40
+ECE 188A - Senior EE Capstone,60,100,100,60,100,80,60,60,100,100,60,60,60,80,100
+ECE 188B - Senior EE Capstone,60,100,100,60,100,80,60,60,100,100,60,60,60,80,100
+ECE 188C - Senior EE Capstone,60,100,100,60,100,80,60,60,100,100,60,60,60,80,100
+ECE 189A - Senior Computer Systems Project,100,80,80,60,80,60,60,80,60,80,60,60,100,100,60
+ECE 189B - Senior Computer Systems Project,100,80,80,60,80,60,60,80,60,80,60,60,100,100,60
+ECE 189C - Senior Computer Systems Project,100,80,80,60,80,60,60,80,60,80,60,60,100,100,60
+CS 111 - Intro to Computational Science,100,60,60,100,60,60,40,40,40,60,100,100,80,80,40
+CS 130A - Data Structures and Algorithms I,100,60,60,80,60,60,60,80,40,60,100,80,100,100,40
+CS 130B - Data Structures and Algorithms II,100,60,60,80,60,60,60,80,40,60,100,80,100,100,40
+CS 134 - Randomized Algorithms,100,60,60,100,60,60,40,60,40,60,100,100,80,80,40
+CS 138 - Automata and Formal Languages,100,60,40,80,40,40,40,60,20,40,80,80,60,80,20
+CS 140 - Parallel Computing,100,60,60,100,60,60,40,60,40,60,100,100,100,100,60
+CS 148 - Computer Science Project,100,60,40,80,40,40,40,60,20,40,80,60,100,100,20
+CS 154 - Computer Architecture,80,100,100,60,100,60,60,80,100,100,60,60,80,100,100
+CS 156 - Advanced Applications Programming,100,40,20,60,20,20,40,60,20,40,60,60,100,100,20
+CS 160 - Translation of Programming Languages,100,40,20,60,20,20,40,60,20,40,60,60,80,80,20
+CS 162 - Programming Languages,100,40,20,60,20,20,40,60,20,40,60,60,80,80,20
+CS 165A - Artificial Intelligence,100,60,40,100,60,60,40,80,20,40,100,100,80,80,20
+CS 165B - Machine Learning,100,60,40,100,60,60,40,80,20,40,100,100,80,80,20
+CS 170 - Operating Systems,100,80,60,60,60,40,60,80,40,60,60,60,100,100,40
+CS 171 - Distributed Systems,100,60,40,60,40,40,80,80,20,40,100,80,100,100,20
+CS 174A - Fundamentals of Database Systems,100,40,20,60,20,20,40,60,20,40,100,80,100,80,20
+CS 174B - Implementation Techniques of Databases,100,40,20,60,20,20,40,60,20,40,100,80,100,80,20
+CS 176A - Intro to Computer Communication Networks,100,60,40,60,40,40,100,80,20,40,80,60,100,80,20
+CS 176B - Network Computing,100,40,20,60,20,20,100,80,20,20,80,60,100,100,20
+CS 176C - Advanced Topics in Internet Computing,100,40,20,60,20,20,100,100,20,20,80,60,100,100,20
+CS 177 - Computer Security,100,60,40,60,40,40,80,100,20,40,80,60,100,100,20
+CS 178 - Intro to Cryptography,100,40,20,60,20,20,80,100,20,40,60,60,80,100,20
+CS 180 - Computer Graphics,100,40,40,60,40,60,40,40,20,40,60,60,80,80,20
+CS 181 - Intro to Computer Vision,100,60,40,100,60,80,40,60,20,40,100,100,60,80,20
+CS 184 - Mobile Application Development,100,40,20,60,20,20,40,60,20,20,60,60,100,100,20
+CS 185 - Human Computer Interaction,100,40,20,60,20,20,40,40,20,20,60,60,100,80,20
+CS 189A - CS Capstone,100,80,60,80,60,60,60,80,40,60,80,80,100,100,60
+CS 189B - CS Capstone,100,80,60,80,60,60,60,80,40,60,80,80,100,100,60
