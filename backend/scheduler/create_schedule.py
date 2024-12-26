@@ -125,6 +125,16 @@ def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df):
 
 
 ##########
+    free_electives = ["Free Elective 1", "Free Elective 2", "Free Elective 3",
+                      "Free Elective 4", "Free Elective 5", "Free Elective 6", 
+                      "Free Elective 7", "Free Elective 8", "Free Elective 9",
+                      "Free Elective 10", "Free Elective 11", "Free Elective 12"]  # Replace with actual electives if available
+    elective_index = 0  # To keep track of added electives
+
+    for term in terms:
+        while len(term) < 3 and elective_index < len(free_electives):  # Add electives until the term has 3 courses
+            term.append(free_electives[elective_index])
+            elective_index += 1
 
 
 
