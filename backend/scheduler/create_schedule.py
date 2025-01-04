@@ -25,7 +25,7 @@ def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df, 
     term_length = None
     if major == "ce" or major == "ee":
         term_length = 4
-    elif major == "ecacc":
+    elif major == "ecacc" or major == "econ":
         term_length = 2
     else:
         term_length = 3
