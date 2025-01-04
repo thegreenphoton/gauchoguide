@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import './SurveyPage.css';
+import '../../styles/SurveyPage.css';
 
-const SurveyPage = () => {
+const SdsSurvey = () => {
     const navigate = useNavigate();
     const [responses, setResponses] = useState(Array(20).fill(3)); 
 
@@ -18,16 +18,16 @@ const SurveyPage = () => {
         'Having flexibility in my work schedule, such as remote work options, is very important to me.',
         'I am interested in a role that requires deep specialization rather than broad knowledge.',
         'I would consider taking on a career path that has the potential to be impacted by AI or automation in the future.',
-        'I enjoy writing and debugging code to create functional applications or tools.',
-        'I enjoy statistical analysis, working with large datasets, and using mathematical models to interpret data.',
-        'I am interested in designing and working with physical components, such as circuit boards and microcontrollers.',
-        'I am interested in setting up, managing, and troubleshooting network infrastructure to ensure secure and efficient communication.',
-        'I am interested in developing algorithms and optimizing them for efficiency, scalability, or complex data processing tasks.',
-        'I enjoy hands-on work, such as testing physical components or troubleshooting hardware issues.',
-        'I am fascinated by machine learning and artificial intelligence and would like to develop systems that can learn from data.',
-        'I am motivated to protect systems from cyber threats by implementing security measures and identifying vulnerabilities.',
-        'I am interested in understanding and working with operating systems, memory management, and low-level programming.',
-        'I am passionate about conducting research in artificial intelligence, developing new algorithms, and exploring advanced machine learning techniques.',
+        'I enjoy analyzing large datasets to identify patterns and trends.',
+        'I am interested in building predictive models to make data-driven decisions.',
+        'I find satisfaction in visualizing data to communicate insights effectively.',
+        'I enjoy programming in languages such as Python, R, or SQL to manipulate and analyze data.',
+        'I am passionate about developing machine learning algorithms for pattern recognition and automation.',
+        'I like creating dashboards and reports to monitor key business metrics.',
+        'I enjoy designing experiments and performing statistical tests to validate hypotheses.',
+        'I find it exciting to work with cloud-based data storage and computing platforms.',
+        'I am interested in evaluating and mitigating risks through data modeling and simulations.',
+        'I like applying mathematical models and optimization techniques to solve complex problems.'
     ]
 
     const handleResponseChange = (index, value) => {
@@ -40,7 +40,8 @@ const SurveyPage = () => {
         try {
             const response = await axios.post('http://127.0.0.1:8000/api/career-results/', {
                 manualRoute: false,
-                exampleStudent: responses
+                exampleStudent: responses,
+                major: "sds"
             });
             localStorage.setItem('exampleStudent', JSON.stringify(response.data.exampleStudent));
             localStorage.setItem('topCareers', JSON.stringify(response.data.topCareers));
@@ -73,11 +74,12 @@ const SurveyPage = () => {
                 ))}
             </div>
             <div className="buttons-container">
-                <button onClick={submitSurvey} className="submit-button">Submit</button>
                 <button onClick={() => navigate(-1)} className="back-button">Back</button>
+                <button onClick={submitSurvey} className="submit-button">Submit</button>
+                
             </div>
         </div>
     );
 };
 
-export default SurveyPage;
+export default SdsSurvey;

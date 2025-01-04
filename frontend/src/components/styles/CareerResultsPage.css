@@ -1,0 +1,117 @@
+/* General Container */
+.results-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to right, #003660, #02538d); /* UCSB Blue Gradient */
+    min-height: 100vh;
+    color: #FFC72C; /* Vibrant UCSB Gold */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Header */
+.results-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* Stronger shadow for emphasis */
+    color: #FFC72C; /* Vibrant Gold */
+}
+
+.results-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #FFC72C; /* Vibrant Gold */
+}
+
+/* Results List */
+.results-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Each Career Item */
+.results-list li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, #FFC72C, #FFD700); /* Gradient Gold */
+    color: #003660; /* UCSB Blue */
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover Effect for Career Items */
+.results-list li:hover {
+    transform: scale(1.05); /* Slight enlargement on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons Container */
+.results-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Buttons */
+.results-button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Electives Button */
+.results-button.home {
+    background-color: #003660; /* UCSB Blue */
+    color: #FFC72C; /* Gold */
+}
+
+.results-button.home:hover {
+    background-color: #001f3f; /* Darker Blue */
+}
+
+/* Home Button */
+.results-button.electives {
+    background: linear-gradient(135deg, #FFC72C, #FFD700); /* Gradient Gold */
+    color: #003660; /* UCSB Blue */
+}
+
+.results-button.electives:hover {
+    background-color: #FFC72C; /* Vibrant Gold */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger hover effect */
+}
+
+/* Footer */
+.results-footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #FFC72C; /* Gold */
+    opacity: 0.8;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .results-buttons {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        gap: 10px;
+    }
+
+    .results-list {
+        max-width: 90%;
+    }
+}

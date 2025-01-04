@@ -1,0 +1,39 @@
+Course,Prerequisites
+PSTAT 100 - Data Science Concepts and Analysis,
+PSTAT 105 - Intro to Nonparametric Methods,"PSTAT 120B - Probability and Statistics II"
+PSTAT 115 - Intro to Bayesian Data Analysis,"PSTAT 126 - Regression Analysis"
+PSTAT 120A - Probability and Statistics I,
+PSTAT 120B - Probability and Statistics II,
+PSTAT 120C - Probability and Statistics III,"PSTAT 120B - Probability and Statistics II"
+PSTAT 122 - Design and Analysis of Experiments,"PSTAT 120B - Probability and Statistics II"
+PSTAT 126 - Regression Analysis,"PSTAT 120B - Probability and Statistics II"
+PSTAT 127 - Advanced Statistical Models,"PSTAT 126 - Regression Analysis"
+PSTAT 130 - SAS Base Programming,
+PSTAT 131 - Intro to Statistical Machine Learning,"PSTAT 126 - Regression Analysis"
+PSTAT 134 - Statistical Data Science,"PSTAT 131 - Intro to Statistical Machine Learning"
+PSTAT 135 - Big Data Analytics,"PSTAT 131 - Intro to Statistical Machine Learning"
+PSTAT 160A - Applied Stochastic Processes I,
+PSTAT 160B - Applied Stochastic Processes II,"PSTAT 160A - Applied Stochastic Processes I,PSTAT 120B - Probability and Statistics II"
+PSTAT 170 - Intro to Mathematical Finance,"PSTAT 120B - Probability and Statistics II,PSTAT 160A - Applied Stochastic Processes I"
+PSTAT 171 - Mathematics of Fixed Income Markets,
+PSTAT 172A - Actuarial Statistics I,"PSTAT 171 - Mathematics of Fixed Income Markets"
+PSTAT 172B - Actuarial Statistics II,"PSTAT 172A - Actuarial Statistics I"
+PSTAT 173 - Risk Theory,"PSTAT 120B - Probability and Statistics II"
+PSTAT 174 - Time Series,"PSTAT 120B - Probability and Statistics II"
+PSTAT 175 - Survival Analysis,"PSTAT 120B - Probability and Statistics II"
+PSTAT 176 - Advanced Mathematical Finance,"PSTAT 160A - Applied Stochastic Processes I,PSTAT 160B - Applied Stochastic Processes II,PSTAT 170 - Intro to Mathematical Finance"
+PSTAT 183 - Fundamental Actuarial Concepts,"PSTAT 171 - Mathematics of Fixed Income Markets"
+MATH 104A - Intro to Numerical Analysis,"MATH 117 - Methods of Analysis"
+MATH 104B - Numerical Analysis,"MATH 104A - Intro to Numerical Analysis"
+MATH 104C - Advanced Topics in Numerical Analysis,"MATH 104B - Numerical Analysis"
+MATH 108A - Linear Algebra I,
+MATH 108B - Linear Algebra II,"MATH 108A - Linear Algebra I"
+MATH 111A - Abstract Algebra I,"MATH 108A - Linear Algebra I"
+MATH 111B - Abstract Algebra II,"MATH 111A - Abstract Algebra I"
+MATH 111C - Abstract Algebra III,"MATH 111B - Abstract Algebra II"
+MATH 117 - Methods of Analysis,
+MATH 118A - Real Analysis I,"MATH 108A - Linear Algebra I,MATH 117 - Methods of Analysis"
+MATH 118B - Real Analysis II,"MATH 108B - Linear Algebra II,MATH 118A - Real Analysis I"
+MATH 118C - Real Analysis III,"MATH 118B - Real Analysis II"
+MATH 132A - Optimization,"MATH 108A - Linear Algebra I"
+MATH 132B - Operations Research,"MATH 132A - Optimization"

@@ -1,0 +1,39 @@
+Course,Data Scientist,Statistician,Data Analyst,Financial Analyst,Risk Analyst,Actuary,Machine Learning Engineer,Data Engineer,Business Intelligence Analyst,Operations Research Analyst,Marketing Analyst,Data Visualization Specialist,Cloud Engineer,Artificial Intelligence Specialist,Software Engineer (Data-Focused) 
+PSTAT 100 - Data Science Concepts and Analysis,100,90,95,85,85,80,95,90,90,85,85,95,85,95,90
+PSTAT 105 - Intro to Nonparametric Methods,90,95,85,75,80,85,70,60,80,85,75,80,50,70,65
+PSTAT 115 - Intro to Bayesian Data Analysis,95,95,85,70,75,85,80,65,75,85,70,75,55,80,70
+PSTAT 120A - Probability and Statistics I,95,100,85,80,85,95,85,70,80,90,75,80,60,85,75
+PSTAT 120B - Probability and Statistics II,95,100,85,80,85,95,80,70,80,90,75,80,60,80,75
+PSTAT 120C - Probability and Statistics III,95,100,85,80,85,95,80,70,80,90,75,80,60,80,75
+PSTAT 122 - Design and Analysis of Experiments,90,100,85,75,80,90,75,65,80,90,80,85,55,75,70
+PSTAT 126 - Regression Analysis,95,100,90,85,85,90,85,70,85,90,85,85,60,80,75
+PSTAT 127 - Advanced Statistical Models,95,100,90,80,85,90,90,75,85,90,80,85,70,90,80
+PSTAT 130 - SAS Base Programming,80,85,90,75,80,85,70,85,90,80,85,90,65,70,75
+PSTAT 131 - Intro to Statistical Machine Learning,100,95,90,75,80,80,100,85,85,90,85,85,70,100,85
+PSTAT 134 - Statistical Data Science,100,90,95,80,85,80,100,90,90,85,90,95,80,100,90
+PSTAT 135 - Big Data Analytics,95,85,85,70,75,75,95,90,85,80,80,85,100,95,90
+PSTAT 160A - Applied Stochastic Processes I,90,100,85,85,90,95,85,75,80,90,75,80,65,85,75
+PSTAT 160B - Applied Stochastic Processes II,85,100,80,90,95,100,80,70,75,90,70,75,60,80,70
+PSTAT 170 - Intro to Mathematical Finance,80,85,75,100,95,95,75,70,80,85,70,75,60,70,65
+PSTAT 171 - Mathematics of Fixed Income Markets,70,80,75,95,90,100,65,60,75,80,65,70,55,60,60
+PSTAT 172A - Actuarial Statistics I,70,85,70,90,95,100,65,60,70,80,60,65,55,60,60
+PSTAT 172B - Actuarial Statistics II,65,80,70,90,95,100,60,55,65,75,55,60,50,55,55
+PSTAT 173 - Risk Theory,75,85,70,95,100,100,65,60,70,80,60,65,55,60,60
+PSTAT 174 - Time Series,90,95,85,85,80,85,80,70,80,85,75,80,60,75,70
+PSTAT 175 - Survival Analysis,70,90,75,85,90,100,70,60,70,80,65,70,55,65,60
+PSTAT 176 - Advanced Mathematical Finance,80,85,75,100,95,95,75,70,80,85,70,75,60,70,65
+PSTAT 183 - Fundamental Actuarial Concepts,65,80,70,85,95,100,65,60,70,75,60,65,55,60,55
+MATH 104A - Intro to Numerical Analysis,75,85,70,75,80,85,80,70,70,85,65,70,60,75,70
+MATH 104B - Numerical Analysis,75,85,70,70,75,80,85,75,70,85,65,65,65,80,80
+MATH 104C - Advanced Topics in Numerical Analysis,75,85,70,70,75,75,85,75,70,85,65,70,65,80,75
+MATH 108A - Linear Algebra I,85,90,75,70,75,75,90,85,75,85,70,75,65,85,80
+MATH 108B - Linear Algebra II,90,95,80,75,80,80,95,90,80,85,70,75,70,90,85
+MATH 111A - Abstract Algebra I,30,25,5,5,5,15,25,5,5,50,5,5,5,30,15
+MATH 111B - Abstract Algebra II,30,25,5,5,5,15,25,5,5,50,5,5,5,30,15
+MATH 111C - Abstract Algebra III,30,25,5,5,5,15,25,5,5,50,5,5,5,30,15
+MATH 117 - Methods of Analysis,50,70,30,20,25,30,40,10,20,70,15,20,10,55,30
+MATH 118A - Real Analysis I,50,70,30,20,25,30,40,10,20,70,15,20,10,55,30
+MATH 118B - Real Analysis II,50,70,30,20,25,30,40,10,20,70,15,20,10,55,30
+MATH 118C - Real Analysis III,50,70,30,20,25,30,40,10,20,70,15,20,10,55,30
+MATH 132A - Optimization,80,70,60,60,70,50,95,30,30,95,40,30,20,85,70
+MATH 132B - Operations Research,90,80,75,50,60,55,95,65,40,95,30,35,25,90,80

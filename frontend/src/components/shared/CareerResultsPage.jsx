@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './CareerResultsPage.css';
+import '../styles/CareerResultsPage.css';
 
 const CareerResultsPage = () => {
     const [results, setResults] = useState([]);
@@ -8,6 +8,8 @@ const CareerResultsPage = () => {
 
     useEffect(() => {
         const storedResults = localStorage.getItem('topCareers');
+        const storedMajor = localStorage.getItem('selectedMajor');
+
         if (storedResults) {
             try {
                 const parsedResults = JSON.parse(storedResults);
@@ -19,6 +21,19 @@ const CareerResultsPage = () => {
             console.error("No results found in localStorage.");
         }
     }, []);
+
+    const handleNavigateToElectives = () => {
+        const major = localStorage.getItem('selectedMajor'); // Get the selected major
+        
+        if (major) {
+            // Navigate to the major-specific electives page
+            navigate(`/${major}/electives`);
+        } else {
+            // Fallback to a default electives page
+            console.error('No major selected. Navigating to default electives page.');
+            navigate('/electives');
+        }
+    };
 
     return (
         <div className="results-container">
@@ -36,17 +51,18 @@ const CareerResultsPage = () => {
 
             <div className="results-buttons">
                 <button 
-                    onClick={() => navigate('/electives')}
-                    className="results-button electives"
-                >
-                    View Electives
-                </button>
-                <button 
                     onClick={() => navigate('/')}
                     className="results-button home"
                 >
                     Return to Home
                 </button>
+                <button 
+                    onClick={handleNavigateToElectives}
+                    className="results-button electives"
+                >
+                    View Electives
+                </button>
+
             </div>
         </div>
     );

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import './ManualCareersPage.css';
+import '../../styles/ManualCareersPage.css';
 
-const ManualCareersPage = () => {
+const CEManual = () => {
     const navigate = useNavigate();
     const allCareers = [
         'Software Engineer', 
@@ -22,16 +22,19 @@ const ManualCareersPage = () => {
         'Cloud Architect',
         'DevOps Engineer',
     ];
+    const [availableCareers, setAvailableCareers] = useState(allCareers);
     const [selectedCareers, setSelectedCareers] = useState([]);
 
     const handleSelectedCareers = (career) => {
         if (selectedCareers.length < 5 && !selectedCareers.includes(career)) {
             setSelectedCareers([...selectedCareers, career]);
+            setAvailableCareers(availableCareers.filter((c) => c !== career));
         }
     };
 
     const handleRemoveCareer = (career) => {
         setSelectedCareers(selectedCareers.filter((c) => c !== career));
+        setAvailableCareers([...availableCareers, career]);
     };
 
     const handleSubmit = async () => {
@@ -53,6 +56,7 @@ const ManualCareersPage = () => {
             const response = await axios.post('http://localhost:8000/api/electives/', {
                 manualRoute: true,
                 selectedCareers: formattedCareers, // Send formatted data
+                major: "ce",
             });
     
             // Save results
@@ -60,7 +64,7 @@ const ManualCareersPage = () => {
             localStorage.setItem('topSequenceCourses', JSON.stringify(response.data.topSequenceCourses));
             localStorage.setItem('topSixElectives', JSON.stringify(response.data.topSixElectives));
     
-            navigate('/electives');
+            navigate('/ce/electives');
         } catch (error) {
             console.error('Error submitting selection:', error);
             alert('Failed to fetch electives. Please try again.');
@@ -76,7 +80,7 @@ const ManualCareersPage = () => {
                 <div className="available-careers">
                     <h2>Available Careers:</h2>
                     <ul className="careers-list">
-                        {allCareers.map((career, index) => (
+                        {availableCareers.map((career, index) => (
                             <li key={index} className="career-item">
                                 {career}
                                 <button
@@ -125,4 +129,4 @@ const ManualCareersPage = () => {
     );
 };
 
-export default ManualCareersPage;
+export default CEManual;

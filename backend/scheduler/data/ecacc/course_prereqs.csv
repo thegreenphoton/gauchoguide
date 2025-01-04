@@ -1,0 +1,40 @@
+Course,Prerequisites
+ECON 100B - Intermediate Microeconomic Theory,
+ECON 101 - Intermediate Macroeconomic Theory,
+ECON 106 - Managerial Economics,"ECON 100B - Intermediate Microeconomic Theory"
+ECON 107A - History of Economics I,
+ECON 107B - History of Economics II,
+ECON 113B - Twentieth Century US Economic History,
+ECON 114A - Economic Development,
+ECON 115 - Environmental Economics,
+ECON 116A - Industrial Organization,"ECON 100B - Intermediate Microeconomic Theory,ECON 140A - Intro to Econometrics I"
+ECON 117A - Law and Economics I,"ECON 100B - Intermediate Microeconomic Theory,ECON 140A - Intro to Econometrics I"
+ECON 118 - Financial Accounting Analysis and Planning,"ECON 136C - Intermediate Accounting III"
+ECON 130 - Public Finance,"ECON 100B - Intermediate Microeconomic Theory,ECON 101 - Intermediate Macroeconomic Theory"
+ECON 132A - Auditing,"ECON 136B - Intermediate Accounting II"
+ECON 134A - Financial Management,"ECON 100B - Intermediate Microeconomic Theory,ECON 140A - Intro to Econometrics I"
+ECON 134C - Behavioral Finance,"ECON 134A - Financial Management"
+ECON 135 - Monetary Economics,"ECON 100B - Intermediate Microeconomic Theory,ECON 101 - Intermediate Macroeconomic Theory"
+ECON 136A - Intermediate Accounting I,
+ECON 136B - Intermediate Accounting II,"ECON 136A - Intermediate Accounting I"
+ECON 136C - Intermediate Accounting III,"ECON 136B - Intermediate Accounting II"
+ECON 137A - Managerial Accounting,
+ECON 138A - Income Taxation I,
+ECON 138B - Income Taxation II,"ECON 138A - Income Taxation I"
+ECON 139 - Advanced Accounting,"ECON 136B - Intermediate Accounting II"
+ECON 140A - Intro to Econometrics I,
+ECON 140B - Intro to Econometrics II,"ECON 140A - Intro to Econometrics I"
+ECON 145 - Data Wrangling,
+ECON 150A - Labor Economics,
+ECON 152 - Personnel Economics,"ECON 100B - Intermediate Microeconomic Theory"
+ECON 156 - Topics in Applied Economics,"ECON 100B - Intermediate Microeconomic Theory,ECON 140A - Intro to Econometrics I"
+ECON 170 - Health Economics,"ECON 100B - Intermediate Microeconomic Theory,ECON 140A - Intro to Econometrics I"
+ECON 171 - Game Theory,"ECON 100B - Intermediate Microeconomic Theory"
+ECON 174 - Negotiations,"ECON 100B - Intermediate Microeconomic Theory,ECON 140A - Intro to Econometrics I"
+ECON 176 - Experimental Economics,"ECON 100B - Intermediate Microeconomic Theory,ECON 140A - Intro to Econometrics I"
+ECON 180 - International Trade,"ECON 100B - Intermediate Microeconomic Theory,ECON 101 - Intermediate Macroeconomic Theory"
+ECON 181 - International Finance,"ECON 100B - Intermediate Microeconomic Theory,ECON 101 - Intermediate Macroeconomic Theory"
+ECON 183 - Entrepreneurial Insights,"ECON 100B - Intermediate Microeconomic Theory"
+ECON 185 - Accounting Information Systems,
+ECON 187 - Topics in Personnel Economics,"ECON 100B - Intermediate Microeconomic Theory"
+ECON 189 - Business Law and Ethics in Accounting,

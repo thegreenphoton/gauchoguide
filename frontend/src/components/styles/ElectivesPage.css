@@ -114,3 +114,18 @@ h2 {
 .home-button:hover {
     background-color: #001f3f; /* Darker Blue on hover */
 }
+
+.schedule-button {
+    padding: 20px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #003660; /* UCSB Blue */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.schedule-button:hover {
+    background-color: #001f3f; /* Darker Blue on hover */
+}

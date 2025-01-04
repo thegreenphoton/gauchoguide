@@ -1,3 +1,7 @@
+
+body {
+    background: linear-gradient(to right, #003660, #02538d)
+}
 /* General Page Styles */
 .home-container {
     font-family: 'Arial', sans-serif;
@@ -22,6 +26,7 @@
     font-size: 3rem;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #FFD700;
 }
 
 .home-subtitle {
@@ -108,4 +113,8 @@
     font-size: 0.9rem;
     color: #FFD700;
     opacity: 0.8;
+}
+
+.survey-note {
+    color: #003660;
 }

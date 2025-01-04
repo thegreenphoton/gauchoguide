@@ -1,18 +1,12 @@
 import pandas as pd
+from .calculate_electives import get_major_dataframe
 import os
 
-def course_difficulty_predictor():
-    folder_path = os.path.join(os.path.dirname(__file__), 'data')
-    courses_file = os.path.join(folder_path, 'course_info.csv')
-    relevancy_file = os.path.join(folder_path, 'ce_rel_vecs.csv')
+def course_difficulty_predictor(major):
+    difficulties_df = get_major_dataframe(major)
 
     pd.set_option('display.max_rows', None)
     pd.set_option('display.max_columns', None)
-
-    courses_df = pd.read_csv(courses_file)
-    relevance_df = pd.read_csv(relevancy_file)
-
-    difficulties_df = pd.merge(courses_df, relevance_df, on='Course', how='inner')
 
     #calculates total num of students
     difficulties_df['Total_Students'] = difficulties_df[['A_Count', 'B_Count', 'C_Count', 'D_Count', 'F_Count']].sum(axis=1) 
@@ -34,20 +28,20 @@ def course_difficulty_predictor():
     difficulties_df['Conceptual_Rating_Normalized'] = difficulties_df['GPT_concept_rating'] / 10
 
     field_multipliers = {
-        "Engineering": 1.1,
+        "Engineering": 1.15,
         "CS": 1.1,
-        "Economics": 1.0,
-        "Communication": 0.9,
-        "History": 0.9
+        "Economics": 0.9,
+        "Statistics": 1.0,
+        "Math": 1.0,
     }
 
     difficulties_df['Multiplier'] = difficulties_df['Field'].map(field_multipliers)
 
     difficulties_df['Difficulty_Score'] = (
-        0.25 * difficulties_df['Avg_Grade_Normalized'] +
+        0.30 * difficulties_df['Avg_Grade_Normalized'] +
         0.20 * difficulties_df['Failure_Rate_Normalized'] +
         0.05 * difficulties_df['Variability_Normalized'] +
-        0.35 * difficulties_df['Conceptual_Rating_Normalized']
+        0.30 * difficulties_df['Conceptual_Rating_Normalized']
     ) * 10
 
     difficulties_df['Field_Adjusted_Difficulty_Score'] = difficulties_df['Difficulty_Score'] * difficulties_df['Multiplier']
@@ -56,14 +50,9 @@ def course_difficulty_predictor():
     min_score = difficulties_df['Field_Adjusted_Difficulty_Score'].min()
 
     difficulties_df['Final_Difficulty_Score'] = (
-        9 * (difficulties_df['Field_Adjusted_Difficulty_Score'] - min_score) / (max_score - min_score) + 1
-    ).round(2)
+        4+ 6 * (difficulties_df['Field_Adjusted_Difficulty_Score'] - min_score) / (max_score - min_score)
+    ).round()
 
     difficulties_df.to_csv('courses_with_difficulty.csv', index=False)
 
-    #print(difficulties_df[['Course', 'Final_Difficulty_Score']])
-
     return difficulties_df
-
-
-

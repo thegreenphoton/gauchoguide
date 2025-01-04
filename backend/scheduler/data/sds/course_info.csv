@@ -1,0 +1,39 @@
+Course,Field,Unit_Count,A_Count,B_Count,C_Count,D_Count,F_Count,GPT_concept_rating,Required,Elective,Sds_math
+PSTAT 100 - Data Science Concepts and Analysis,Statistics,4,355,181,36,9,11,6,0,1,0
+PSTAT 105 - Intro to Nonparametric Methods,Statistics,4,192,175,90,8,21,7,0,1,0
+PSTAT 115 - Intro to Bayesian Data Analysis,Statistics,4,150,98,51,3,7,8,0,1,0
+PSTAT 120A - Probability and Statistics I,Statistics,4,417,320,171,22,21,7,0,0,0
+PSTAT 120B - Probability and Statistics II,Statistics,4,417,320,171,22,21,7,1,0,0
+PSTAT 120C - Probability and Statistics III,Statistics,4,236,94,18,2,17,7,0,1,0
+PSTAT 122 - Design and Analysis of Experiments,Statistics,4,324,235,93,24,23,7,1,0,0
+PSTAT 126 - Regression Analysis,Statistics,4,205,175,61,16,11,6,1,0,0
+PSTAT 127 - Advanced Statistical Models,Statistics,4,184,169,81,10,17,8,0,1,0
+PSTAT 130 - SAS Base Programming,Statistics,4,192,223,120,11,5,5,0,1,0
+PSTAT 131 - Intro to Statistical Machine Learning,Statistics,4,389,96,27,7,19,8,0,1,0
+PSTAT 134 - Statistical Data Science,Statistics,4,193,132,46,14,2,7,0,1,0
+PSTAT 135 - Big Data Analytics,Statistics,4,253,46,9,0,1,9,0,1,0
+PSTAT 160A - Applied Stochastic Processes I,Statistics,4,244,250,63,11,12,8,0,1,0
+PSTAT 160B - Applied Stochastic Processes II,Statistics,4,215,119,35,11,10,9,0,1,0
+PSTAT 170 - Intro to Mathematical Finance,Statistics,4,138,134,39,4,11,8,0,1,0
+PSTAT 171 - Mathematics of Fixed Income Markets,Statistics,4,153,130,63,24,32,7,0,1,0
+PSTAT 172A - Actuarial Statistics I,Statistics,4,103,171,132,14,25,8,0,1,0
+PSTAT 172B - Actuarial Statistics II,Statistics,4,60,75,42,4,6,8,0,1,0
+PSTAT 173 - Risk Theory,Statistics,4,91,106,72,16,29,9,0,1,0
+PSTAT 174 - Time Series,Statistics,4,290,121,23,5,12,9,0,1,0
+PSTAT 175 - Survival Analysis,Statistics,4,193,169,49,6,9,8,0,1,0
+PSTAT 176 - Advanced Mathematical Finance,Statistics,4,44,29,6,1,2,9,0,1,0
+PSTAT 183 - Fundamental Actuarial Concepts,Statistics,4,175,119,57,20,6,7,0,1,0
+MATH 104A - Intro to Numerical Analysis,Statistics,4,187,81,21,6,15,8,0,0,1
+MATH 104B - Numerical Analysis,Statistics,4,144,76,35,12,10,8,0,0,1
+MATH 104C - Advanced Topics in Numerical Analysis,Statistics,4,137,49,22,3,4,9,0,0,1
+MATH 108A - Linear Algebra I,Math,4,114,72,45,19,22,7,0,0,1
+MATH 108B - Linear Algebra II,Math,4,106,62,53,13,21,9,0,0,1
+MATH 111A - Abstract Algebra I,Math,4,105,76,44,28,27,8,0,0,1
+MATH 111B - Abstract Algebra II,Math,4,104,45,36,13,5,8,0,0,1
+MATH 111C - Abstract Algebra III,Math,4,152,81,24,6,4,9,0,0,1
+MATH 117 - Methods of Analysis,Math,4,149,74,51,16,39,8,0,0,1
+MATH 118A - Real Analysis I,Math,4,115,73,34,28,27,8,0,0,1
+MATH 118B - Real Analysis II,Math,4,125,56,34,28,12,8,0,0,1
+MATH 118C - Real Analysis III,Math,4,147,96,32,28,6,8,0,0,1
+MATH 132A - Optimization,Math,4,150,63,45,13,15,9,0,0,1
+MATH 132B - Operations Research,Math,4,5,4,3,2,1,8,0,0,0

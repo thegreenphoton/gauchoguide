@@ -1,17 +1,34 @@
 import pandas as pd
 from collections import defaultdict, deque
-from .calculate_electives import calculate_top_electives, example_student, career_scores, calculate_top_careers
-from .difficulty_pred import course_difficulty_predictor
 import os
 
-top_careers = calculate_top_careers(example_student, career_scores)
-top_two_sequences, top_two_sequence_courses, top_six_electives, df = calculate_top_electives(
-   top_careers, career_scores
-)
+def map_difficulties(terms, difficulties_df):
+    course_difficulties = []
+    for term_index, term in enumerate(terms):
+        term_details = []
+        for course in term:
+            if "G.E." in course:
+                difficulty = 3.0
+            else:
+                difficulty_row = difficulties_df[difficulties_df['Course'] == course]
+                if not difficulty_row.empty:
+                    difficulty = difficulty_row['Final_Difficulty_Score'].values[0]
+                else:
+                    difficulty = 3.0
+            term_details.append({"course": course, "difficulty": round(difficulty, 1)})
 
+        course_difficulties.append({"term": term_index + 1, "courses": term_details})
 
+    return course_difficulties
 
-def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df): 
+def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df, major): 
+    term_length = None
+    if major == "ce" or major == "ee":
+        term_length = 4
+    elif major == "ecacc":
+        term_length = 2
+    else:
+        term_length = 3
     graph = defaultdict(list)
     in_degree = defaultdict(int)
 
@@ -19,16 +36,6 @@ def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df):
         for prereq in prereqs:
             graph[prereq].append(course)
             in_degree[course] += 1
-
-###########
-    
-    #capstone_courses = [course for course in final_courses if course in chosen_capstone_courses]
-    #non_capstone_courses = [course for course in final_courses if course not in capstone_courses]
-
-
-
-
-###########
 
     queue = deque([course for course in final_courses if in_degree[course] == 0])
     schedule = []
@@ -38,10 +45,6 @@ def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df):
     current_term = 0
     deferred_courses = defaultdict(list)
 
-    # Separate capstone courses and other courses
-
-
-
     def find_next_available_term(course, current_term):
 
         offered_terms = [
@@ -50,7 +53,6 @@ def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df):
         ]
         for term_offset in range(1, 10):  # Check up to the next 10 terms
             next_term = (current_term + term_offset) % 3  # Rotate through terms
-            # term_column = term_mapping[next_term]
             if next_term in offered_terms:
                 return next_term
         return None  # No available term found
@@ -59,7 +61,7 @@ def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df):
         term = []
         next_queue = deque()
 
-        while queue and len(term) < 4:
+        while queue and len(term) < term_length:
             course = queue.popleft()
 
             # Check if the course is offered in the current term
@@ -90,9 +92,7 @@ def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df):
 
             term_courses_df = difficulties_df[difficulties_df['Course'].isin(term)]
             term_difficulty = term_courses_df['Final_Difficulty_Score'].sum()
-            term_difficulties.append(term_difficulty.round(2))
-
-        # print(f"Term {len(terms)} difficulty: {term_difficulty}")
+            term_difficulties.append(term_difficulty.round(1))
 
             # Update in-degree for the next iteration
         for completed_course in term:
@@ -118,40 +118,21 @@ def course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df):
         deferred_courses[current_term] = []  # Clear deferred courses for the processed term
         queue.extend(next_queue)
 
-
-###########
-
-
-
-
-##########
-    free_electives = ["Free Elective 1", "Free Elective 2", "Free Elective 3",
-                      "Free Elective 4", "Free Elective 5", "Free Elective 6", 
-                      "Free Elective 7", "Free Elective 8", "Free Elective 9",
-                      "Free Elective 10", "Free Elective 11", "Free Elective 12"]  # Replace with actual electives if available
+    free_electives = ["G.E. 1", "G.E. 2", "G.E. 3",
+                      "G.E. 4", "G.E. 5", "G.E. 6", 
+                      "G.E. 7", "G.E. 8", "G.E. 9",
+                      "G.E. 10", "G.E. 11", "G.E. 12"] 
     elective_index = 0  # To keep track of added electives
 
+    # Add electives until the term has 3 courses for full time standing
     for term in terms:
-        while len(term) < 3 and elective_index < len(free_electives):  # Add electives until the term has 3 courses
+        while len(term) < 3 and elective_index < len(free_electives):  
             term.append(free_electives[elective_index])
             elective_index += 1
 
-
-
     print("Course Schedule by Terms:")
-    for i, term in enumerate(terms):
+    for i, term in enumerate(terms):        
         print(f"Term {i + 1}, difficulty = {term_difficulties[i]}: {', '.join(term)}")
 
-  # Raise a descriptive exception
-        
-    # i dont care about balancing terms anymore. didnt work.
-    #terms, term_difficulties = balance_terms(terms, term_difficulties)
-
-    # Validate if all courses are scheduled
-    if len(schedule) != len(final_courses):
-        print("Error: Some courses could not be scheduled due to cyclic dependencies or unmet prerequisites.")
 
     return terms, term_difficulties
-
-#difficulties_df = course_difficulty_predictor()
-#course_scheduler(prerequisites, final_courses, prereqs_df, difficulties_df)

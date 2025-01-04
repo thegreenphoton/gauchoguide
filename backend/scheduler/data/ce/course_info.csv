@@ -1,4 +1,4 @@
-Course,Field,Unit_Count,A_Count,B_Count,C_Count,D_Count,F_Count,GPT_concept_rating,CE_required,CE_Elective
+Course,Field,Unit_Count,A_Count,B_Count,C_Count,D_Count,F_Count,GPT_concept_rating,Required,Elective
 ECE 120A - IC Circuit Design + Fabrication I,Engineering,4,145,67,5,0,0,8,0,0
 ECE 120B - IC Circuit Design + Fabrication II,Engineering,4,109,36,4,0,1,10,0,0
 ECE 122A - VLSI Principles I,Engineering,4,35,46,2,0,6,7,0,1

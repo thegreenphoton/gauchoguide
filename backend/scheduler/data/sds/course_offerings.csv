@@ -1,0 +1,39 @@
+Course,Offered_Fall,Offered_Winter,Offered_Spring
+PSTAT 100 - Data Science Concepts and Analysis,1,1,1
+PSTAT 105 - Intro to Nonparametric Methods,0,1,0
+PSTAT 115 - Intro to Bayesian Data Analysis,1,1,1
+PSTAT 120A - Probability and Statistics I,1,1,1
+PSTAT 120B - Probability and Statistics II,1,1,1
+PSTAT 120C - Probability and Statistics III,1,0,1
+PSTAT 122 - Design and Analysis of Experiments,1,1,1
+PSTAT 126 - Regression Analysis,1,1,1
+PSTAT 127 - Advanced Statistical Models,1,0,0
+PSTAT 130 - SAS Base Programming,1,1,1
+PSTAT 131 - Intro to Statistical Machine Learning,1,1,1
+PSTAT 134 - Statistical Data Science,1,1,1
+PSTAT 135 - Big Data Analytics,0,0,1
+PSTAT 160A - Applied Stochastic Processes I,1,1,1
+PSTAT 160B - Applied Stochastic Processes II,1,1,1
+PSTAT 170 - Intro to Mathematical Finance,1,1,1
+PSTAT 171 - Mathematics of Fixed Income Markets,1,1,1
+PSTAT 172A - Actuarial Statistics I,0,1,0
+PSTAT 172B - Actuarial Statistics II,0,0,1
+PSTAT 173 - Risk Theory,1,0,0
+PSTAT 174 - Time Series,1,1,1
+PSTAT 175 - Survival Analysis,0,0,1
+PSTAT 176 - Advanced Mathematical Finance,0,0,1
+PSTAT 183 - Fundamental Actuarial Concepts,0,0,1
+MATH 104A - Intro to Numerical Analysis,1,1,0
+MATH 104B - Numerical Analysis,0,1,1
+MATH 104C - Advanced Topics in Numerical Analysis,0,0,1
+MATH 108A - Linear Algebra I,1,1,1
+MATH 108B - Linear Algebra II,1,1,1
+MATH 111A - Abstract Algebra I,1,0,0
+MATH 111B - Abstract Algebra II,0,1,0
+MATH 111C - Abstract Algebra III,0,0,1
+MATH 117 - Methods of Analysis,1,1,1
+MATH 118A - Real Analysis I,1,0,0
+MATH 118B - Real Analysis II,0,1,0
+MATH 118C - Real Analysis III,0,0,1
+MATH 132A - Optimization,0,1,0
+MATH 132B - Operations Research,0,0,1

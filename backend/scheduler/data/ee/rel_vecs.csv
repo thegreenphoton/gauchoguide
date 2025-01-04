@@ -1,0 +1,53 @@
+Course,Electrical Engineer,Electronics Engineer,Power Systems Engineer,Control Systems Engineer,Telecommunications Engineer,RF (Radio Frequency) Engineer,Embedded Systems Engineer,Hardware Engineer,Signal Processing Engineer,Software Engineer,Microelectronics Engineer,Renewable Energy Engineer,Automation Engineer,Manufacturing Engineer,VLSI Design Engineer
+ECE 120A - IC Circuit Design + Fabrication I,85,90,70,65,75,80,85,85,70,60,100,75,70,80,100
+ECE 120B - IC Circuit Design + Fabrication II,80,90,65,70,75,80,90,85,70,65,100,70,75,80,100
+ECE 122A - VLSI Principles I,80,90,65,70,75,80,90,85,70,65,100,70,75,80,100
+ECE 122B - VLSI Principles II,80,90,60,70,75,80,90,85,70,65,100,65,70,80,100
+ECE 130A - Signal Analysis and Processing I,90,85,80,85,90,90,80,80,95,70,85,80,75,75,80
+ECE 130B - Signal Analysis and Processing II,90,85,80,85,90,90,80,80,95,70,85,80,75,75,80
+ECE 130C - Applied Linear Algebra,85,80,75,80,85,80,80,75,85,75,80,75,70,70,75
+ECE 132 - Intro to Solid-State Electronic Devices,90,95,70,75,80,85,90,90,75,65,100,80,75,80,100
+ECE 133 - Intro to Optimization and Learning,85,80,80,90,75,75,85,80,90,80,80,85,85,75,75
+ECE 134 - Intro to Fields and Waves,90,90,80,75,90,95,85,80,85,65,85,80,70,75,80
+ECE 135 - Optical Fiber Communication,85,90,70,70,95,90,80,75,85,65,80,75,70,70,75
+ECE 136A - Intro to Optics and Photonics,85,90,70,70,90,85,80,75,85,65,85,75,70,70,75
+ECE 136B - Optics and Imaging,85,90,65,70,90,85,80,75,85,65,85,75,70,70,75
+ECE 136C - Quantum Photonics,80,85,65,70,85,80,75,70,80,65,80,70,65,65,70
+ECE 137A - Circuits and Electronics I,90,95,75,80,85,85,90,90,80,70,95,80,75,80,95
+ECE 137B - Circuits and Electronics II,90,95,75,80,85,85,90,90,85,70,95,80,75,80,95
+ECE 139 - Probability and Statistics,85,80,75,80,80,80,80,75,85,75,80,75,70,70,75
+ECE 142 - Intro to Power Electronics,95,90,100,85,70,75,85,85,75,65,90,100,85,80,75
+ECE 144 - Electromagnetic Fields and Waves,95,95,80,75,95,100,85,85,80,65,85,80,70,75,80
+ECE 145A - Communication Electronics I,90,95,75,70,95,100,85,85,80,65,85,75,70,70,80
+ECE 145B - Commuincation Electronics II,90,95,70,70,95,100,85,85,80,65,90,75,70,70,95
+ECE 146A - Digital Communication Fundamentals,85,90,75,75,95,95,80,80,90,70,85,75,70,70,80
+ECE 146B - Communication Systems Design,85,90,70,75,100,95,80,80,90,70,85,75,70,70,80
+ECE 147A - Feedback Control Systems - Theory and Design,90,85,80,95,80,80,85,80,85,75,80,85,90,85,75
+ECE 147B - Digital Control Systems - Theory and Design,90,85,80,95,80,75,85,80,85,75,80,85,90,85,75
+ECE 147C - Control Systems Design Project,90,85,80,100,75,75,85,85,80,75,80,85,95,85,75
+ECE 148 - Applications of Signal Analysis and Processing,90,90,75,80,90,90,85,85,100,75,85,80,75,75,80
+ECE 149 - Game Theory for Networked Systems,75,70,65,80,75,70,75,70,70,80,70,75,80,75,65
+ECE 152A - Digital Design Princples,90,95,70,75,80,85,95,90,75,80,95,80,85,85,100
+ECE 153A - Hardware/Software Interface,90,90,75,85,80,85,100,90,80,85,90,85,90,85,90
+ECE 153B - Sensor and Peripheral Interface Design,90,95,70,75,85,85,95,90,85,75,95,80,85,85,100
+ECE 154A - Intro to Computer Architecture,90,95,70,75,80,80,95,90,80,85,90,80,85,85,95
+ECE 154B - Advanced Computer Architecture,90,95,75,80,85,85,95,90,85,85,90,80,85,85,95
+ECE 157A - Machine Learning in Design and Test Automation,85,90,70,80,75,80,90,90,85,90,90,80,85,85,95
+ECE 157B - Artificial Intelligence in Design and Test Automation,85,90,70,80,75,80,90,90,85,90,90,80,85,85,95
+ECE 158 - Digital Signal Processing,90,90,75,80,90,90,85,85,100,80,85,80,75,75,85
+ECE 162A - Quantum Description of Electronic Metals,85,90,70,75,80,80,85,85,75,70,90,80,75,75,90
+ECE 162B - Fundamentals of Solid State,90,95,75,80,85,85,90,90,80,70,100,85,80,80,95
+ECE 178 - Intro to Digital Image and Video Processing,85,85,70,70,80,80,85,80,95,75,85,75,70,70,80
+ECE 179D - Intro to Robotics - Dynamics and Control,85,80,75,95,70,70,85,80,75,80,80,85,95,85,75
+ECE 179P - Intro to Robotics - Planning and Kinematics,85,80,70,95,70,70,85,80,75,80,80,85,95,85,70
+ECE 180 - Intro to Deep Learning,80,85,70,75,75,75,85,80,90,90,80,75,80,75,80
+ECE 181 - Intro to Computer Vision,80,85,70,70,75,75,85,80,95,85,80,75,75,70,80
+ECE 183 - Nonlinear Phenomena,80,80,75,85,70,70,80,75,75,70,75,75,80,75,70
+ECE 184 - Intro to Game Development,70,70,60,60,65,65,70,65,75,90,65,60,65,70,60
+ECE 186 - Probabilistic Machine Learning,85,85,75,80,75,75,85,80,90,90,80,75,80,75,80
+ECE 188A - Senior EE Capstone,100,95,90,90,85,85,95,95,90,85,90,90,95,95,90
+ECE 188B - Senior EE Capstone,100,95,90,90,85,85,95,95,90,85,90,90,95,95,90
+ECE 188C - Senior EE Capstone,100,95,90,90,85,85,95,95,90,85,90,90,95,95,90
+MATRL 100A - Structure and Properties I,85,85,70,70,75,75,80,80,75,70,85,80,75,80,85
+MATRL 100B - Structure and Properties II,85,80,75,75,70,70,80,80,70,65,85,80,80,85,75
+MATRL 100C - Fundamentals of Structural Evolution,85,85,75,70,70,70,80,80,70,65,85,80,75,80,80

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './ElectivesPage.css';
+import '../../styles/ElectivesPage.css';
 
-const ElectivesPage = () => {
+const EEElectives = () => {
     const [electives, setElectives] = useState([]);
     const [sequences, setSequences] = useState([]);
     const [sequenceCourses, setSequenceCourses] = useState([]);
@@ -30,11 +30,12 @@ const ElectivesPage = () => {
                     const response = await axios.post('http://127.0.0.1:8000/api/electives/', {
                         manualRoute: true,
                         selectedCareers: selectedCareers, 
+                        major: "ee"
                     });
+                    localStorage.setItem('electives', JSON.stringify(response.data.electives));
     
-                    setElectives(response.data.topSixElectives);
-                    setSequences(response.data.topTwoSequences);
-                    setSequenceCourses(response.data.topSequenceCourses);
+                    setElectives(response.data.electives);
+                    
                 } else {
                     // Survey route
                     const exampleStudent = JSON.parse(localStorage.getItem('exampleStudent'));
@@ -48,15 +49,12 @@ const ElectivesPage = () => {
                     const response = await axios.post('http://127.0.0.1:8000/api/electives/', {
                         manualRoute: false,
                         exampleStudent: exampleStudent,
+                        major: "ee"
                     });
                     console.log('electives sent from electives page', response.data)
-                    localStorage.setItem('topTwoSequences', JSON.stringify(response.data.topTwoSequences));
-                    localStorage.setItem('topSequenceCourses', JSON.stringify(response.data.topSequenceCourses));
-                    localStorage.setItem('topSixElectives', JSON.stringify(response.data.topSixElectives));
+                    localStorage.setItem('electives', JSON.stringify(response.data.electives));
 
-                    setElectives(response.data.topSixElectives);
-                    setSequences(response.data.topTwoSequences);
-                    setSequenceCourses(response.data.topSequenceCourses);
+                    setElectives(response.data.electives);
                 }
             } catch (error) {
                 console.error('Error fetching electives:', error);
@@ -69,24 +67,9 @@ const ElectivesPage = () => {
         <div className="electives-page">
             <h1 className="title">Elective Recommendations</h1>
 
-            <section className="sequences-section">
-                <h2>Top 2 Sequences</h2>
-                {sequences.map((sequence, index) => (
-                    <div key={index} className="sequence-card">
-                        <h3 className="sequence-title">{sequence.Sequence}</h3>
-                        <ul className="course-list">
-                            {sequenceCourses
-                                .filter(course => course.Sequence === sequence.Sequence)
-                                .map((course, i) => (
-                                    <li key={i} className="course-item">{course.Course}</li>
-                                ))}
-                        </ul>    
-                    </div>
-                ))}
-            </section>
-
             <section className="electives-section">
-                <h2>Top 6 Electives</h2>
+                <h2>Major: Electrical Engineering</h2>
+                <h2>Your 9 Recommended Electives:</h2>
                 <ul className="electives-list">
                     {electives.map((elective, index) => (
                         <li key={index} className="elective-item">
@@ -104,4 +87,4 @@ const ElectivesPage = () => {
         </div>
     );
 };
-export default ElectivesPage;
+export default EEElectives;

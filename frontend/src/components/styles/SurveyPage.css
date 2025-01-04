@@ -1,0 +1,147 @@
+.survey-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #003660, #02538d); /* UCSB Blue Gradient */
+    min-height: 100vh;
+    color: #ffffff; /* White Text for Contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+.survey-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff; /* White Text */
+}
+
+.survey-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ffffff; /* White Text */
+}
+
+/* Survey Form */
+.survey-form {
+    background-color: #ffffff; /* White Background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 800px;
+    color: #003660; /* UCSB Blue */
+}
+
+/* Question Container */
+.question-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #003660; /* Thin Blue Divider */
+}
+
+.question-container:last-child {
+    border-bottom: none; /* Remove border for the last question */
+}
+
+/* Question Text */
+.question {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #003660 !important; /* UCSB Blue */
+    margin-bottom: 10px;
+}
+
+/* Options Container - HORIZONTAL LAYOUT */
+.options {
+    display: flex;
+    justify-content: space-around; /* Spread options horizontally */
+    gap: 10px; /* Add spacing between buttons */
+    margin-top: 10px;
+}
+
+/* Option Buttons */
+.option-button {
+    flex: 1; /* Equal width buttons */
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #003660; /* UCSB Blue */
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #f5f5f5; /* Light Gray */
+    color: #003660; /* UCSB Blue */
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.option-button:hover {
+    background-color: #003660; /* UCSB Blue */
+    color: #ffffff; /* White Text */
+}
+
+.option-button.selected {
+    background-color: #FFC72C; /* Vibrant Gold */
+    color: #003660; /* UCSB Blue */
+    border-color: #FFC72C;
+}
+
+/* Buttons Container */
+.buttons-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Submit and Back Buttons */
+.submit-button, .back-button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.submit-button {
+    background-color: #ffd971 !important; /* Vibrant Gold */
+    color: #003660 !important; /* UCSB Blue */
+}
+
+.submit-button:hover {
+    background-color: #ffb400 !important; /* Slightly darker gold */
+}
+
+.back-button {
+    background-color: #003660; /* UCSB Blue */
+    color: #ffffff; /* White Text */
+}
+
+.back-button:hover {
+    background-color: #001f3f; /* Darker Blue */
+}
+
+/* Footer */
+.survey-footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ffffff; /* White Text */
+    opacity: 0.8;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .options {
+        flex-direction: column; /* Switch to vertical for smaller screens */
+    }
+
+    .buttons-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

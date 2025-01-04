@@ -1,0 +1,40 @@
+Course,Field,Unit_Count,A_Count,B_Count,C_Count,D_Count,F_Count,GPT_concept_rating,Required,Elective
+ECON 100B - Intermediate Microeconomic Theory,Economics,4,472,804,515,73,27,7,1,0
+ECON 101 - Intermediate Macroeconomic Theory,Economics,4,580,623,157,29,24,8,1,0
+ECON 106 - Managerial Economics,Economics,4,586,99,3,0,1,8,0,1
+ECON 107A - History of Economics I,Economics,4,358,435,33,1,4,6,0,1
+ECON 107B - History of Economics II,Economics,4,243,334,43,3,5,7,0,1
+ECON 113B - Twentieth Century US Economic History,Economics,4,301,334,31,7,3,7,0,1
+ECON 114A - Economic Development,Economics,4,578,121,16,0,3,8,0,1
+ECON 115 - Environmental Economics,Economics,4,132,286,107,11,22,8,0,1
+ECON 116A - Industrial Organization,Economics,4,79,112,56,0,2,7,0,1
+ECON 117A - Law and Economics I,Economics,4,72,76,21,1,3,7,0,1
+ECON 118 - Financial Accounting Analysis and Planning,Economics,4,145,184,157,8,2,8,0,0
+ECON 130 - Public Finance,Economics,4,231,157,24,5,1,8,0,1
+ECON 132A - Auditing,Economics,4,87,148,65,5,1,8,0,0
+ECON 134A - Financial Management,Economics,4,250,270,194,28,17,8,0,1
+ECON 134C - Behavioral Finance,Economics,4,136,104,7,1,2,9,0,1
+ECON 135 - Monetary Economics,Economics,4,168,164,62,16,10,8,0,1
+ECON 136A - Intermediate Accounting I,Economics,4,140,165,77,7,4,8,0,0
+ECON 136B - Intermediate Accounting II,Economics,4,109,138,136,48,23,8,0,0
+ECON 136C - Intermediate Accounting III,Economics,4,80,101,109,28,5,8,0,0
+ECON 137A - Managerial Accounting,Economics,4,390,172,19,2,4,8,0,0
+ECON 138A - Income Taxation I,Economics,4,409,115,30,2,3,7,0,0
+ECON 138B - Income Taxation II,Economics,4,323,95,20,0,0,7,0,0
+ECON 139 - Advanced Accounting,Economics,4,132,126,96,4,3,8,0,0
+ECON 140A - Intro to Econometrics I,Economics,4,516,643,275,55,25,8,1,0
+ECON 140B - Intro to Econometrics II,Economics,4,88,84,20,4,4,9,0,1
+ECON 145 - Data Wrangling,Economics,4,452,233,26,6,9,7,0,1
+ECON 150A - Labor Economics,Economics,4,173,193,96,9,3,8,0,1
+ECON 152 - Personnel Economics,Economics,4,407,368,64,1,0,8,0,1
+ECON 156 - Topics in Applied Economics,Economics,4,163,54,9,1,3,8,0,1
+ECON 170 - Health Economics,Economics,4,139,111,23,0,2,8,0,1
+ECON 171 - Game Theory,Economics,4,361,195,76,21,21,9,0,1
+ECON 174 - Negotiations,Economics,4,201,118,0,0,1,7,0,1
+ECON 176 - Experimental Economics,Economics,4,175,135,2,0,0,7,0,1
+ECON 180 - International Trade,Economics,4,135,214,135,11,3,8,0,1
+ECON 181 - International Finance,Economics,4,185,204,103,5,1,8,0,1
+ECON 183 - Entrepreneurial Insights,Economics,4,23,1,0,0,0,7,0,1
+ECON 185 - Accounting Information Systems,Economics,4,84,210,114,24,20,8,0,0
+ECON 187 - Topics in Personnel Economics,Economics,4,167,6,0,0,4,8,0,1
+ECON 189 - Business Law and Ethics in Accounting,Economics,4,125,207,73,6,1,7,0,0
