@@ -83,7 +83,11 @@ const SchedulePage = () => {
                 console.log("Sending Request Body:", requestBody); // Debugging log
         
                 // Make API request
-                const response = await axios.post('http://localhost:8000/api/schedule-builder/', requestBody);
+                //const response = await axios.post('http://localhost:8000/api/schedule-builder/', requestBody);
+                const response = await axios.post(
+                    `${import.meta.env.VITE_BACKEND_URL}/api/schedule-builder/`,
+                    requestBody
+                )
         
                 console.log("Schedule Response:", response.data); // Debugging log
         

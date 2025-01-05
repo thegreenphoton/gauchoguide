@@ -27,7 +27,12 @@ const CEElectives = () => {
                     console.log('Sending Manual Route Data:', selectedCareers); 
     
                     // Send POST request with formatted careers
-                    const response = await axios.post('http://127.0.0.1:8000/api/electives/', {
+                    /*const response = await axios.post('http://127.0.0.1:8000/api/electives/', {
+                        manualRoute: true,
+                        selectedCareers: selectedCareers, 
+                        major: "ce"
+                    });*/
+                    const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/electives/`, {
                         manualRoute: true,
                         selectedCareers: selectedCareers, 
                         major: "ce"
@@ -46,11 +51,18 @@ const CEElectives = () => {
                         return;
                     }
     
-                    const response = await axios.post('http://127.0.0.1:8000/api/electives/', {
+                    /*const response = await axios.post('http://127.0.0.1:8000/api/electives/', {
                         manualRoute: false,
                         exampleStudent: exampleStudent,
                         major: "ce"
-                    });
+                    });*/
+                    const response = await axios.post(
+                        `${import.meta.env.VITE_BACKEND_URL}/api/electives/`, {
+                            manualRoute: false,
+                            exampleStudent: exampleStudent,
+                            major: "ce"
+                        });
+                        
                     console.log('electives sent from electives page', response.data)
                     localStorage.setItem('topTwoSequences', JSON.stringify(response.data.topTwoSequences));
                     localStorage.setItem('topSequenceCourses', JSON.stringify(response.data.topSequenceCourses));

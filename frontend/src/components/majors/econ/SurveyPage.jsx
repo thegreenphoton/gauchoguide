@@ -38,7 +38,7 @@ const EconSurvey = () => {
 
     const submitSurvey = async () => {
         try {
-            const response = await axios.post('http://127.0.0.1:8000/api/career-results/', {
+            const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/career-results/`, {
                 manualRoute: false,
                 exampleStudent: responses,
                 major: "econ"

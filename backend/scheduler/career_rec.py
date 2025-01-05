@@ -1,5 +1,4 @@
 import numpy as np 
-from scipy.spatial.distance import cosine
 from numpy import dot
 from numpy.linalg import norm
 

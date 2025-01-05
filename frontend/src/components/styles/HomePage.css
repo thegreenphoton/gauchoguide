@@ -1,18 +1,23 @@
 
 body {
-    background: linear-gradient(to right, #003660, #02538d)
+    background: linear-gradient(to right, #003660, #02538d);
+    height: 100%;
 }
+
 /* General Page Styles */
 .home-container {
     font-family: 'Arial', sans-serif;
     text-align: center;
     padding: 40px;
+    padding-top: 20px;
+    min-height: 100vh;
     background: linear-gradient(to right, #003660, #02538d); /* Gradient UCSB Blue */
     height: 100vh;
     color: #FFD700; /* UCSB Gold */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
+    justify-content: flex-start;
     align-items: center;
     border-radius: 16px;
 }
@@ -70,6 +75,15 @@ body {
     color: #003660;
 }
 
+.major-dropdown {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid var(--ucsb-blue);
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
 /* Buttons */
 .button-container {
     display: flex;
@@ -115,6 +129,63 @@ body {
     opacity: 0.8;
 }
 
+.linkedin-link {
+    color: var(--ucsb-gold); /* UCSB Gold color */
+    font-weight: bold; /* Makes the text bold */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s ease; /* Smooth transition effect */
+    padding-bottom: 20px;
+}
+
+/* Hover Effect */
+.linkedin-link:hover {
+    color: var(--ucsb-blue); /* UCSB Blue color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Visited Link */
+.linkedin-link:visited {
+    color: var(--ucsb-gold); /* Keeps the same color for visited links */
+}
+
+/* Active Link (when clicked) */
+.linkedin-link:active {
+    color: #ffcc33; /* Light Gold when clicked */
+}
 .survey-note {
     color: #003660;
+}
+
+@media screen and (max-width: 768px) {
+    .home-title {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .home-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-section {
+        padding: 15px;
+        width: 90%; /* Use more screen width for smaller devices */
+    }
+
+    .options-container {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px;
+    }
+
+    .home-button,
+    .secondary-button {
+        width: 100%; /* Full width buttons for better usability on small screens */
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
 }

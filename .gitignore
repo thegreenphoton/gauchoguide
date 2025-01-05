@@ -16,3 +16,6 @@ tensorflow_env/
 # *.csv
 *.zip
 *.mp4
+
+# Local Netlify folder
+.netlify

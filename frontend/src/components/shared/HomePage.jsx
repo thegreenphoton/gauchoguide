@@ -8,6 +8,7 @@ const HomePage = () => {
     const navigate = useNavigate();
     const [selectedMajor , setSelectedMajor ] = useState('');
     const [errorMessage, setErrorMessage ] = useState('');
+    console.log("Backend URL:", import.meta.env.VITE_BACKEND_URL);
 
     useEffect(() => {
         console.log("Clearing data and restarting project...")
@@ -99,7 +100,8 @@ const HomePage = () => {
     
             <footer className="footer">
                 <p>Built for UCSB students, by Jay Udall (2027 Computer Engineering student).</p>
-                <a href="https://www.linkedin.com/in/jayden-udall-926716253/">My LinkedIn</a>
+                <p>NOT AFFILIATED WITH UCSB</p>
+                <a class="linkedin-link" href="https://www.linkedin.com/in/jayden-udall-926716253/">My LinkedIn</a>
             </footer>
         </div>
     );

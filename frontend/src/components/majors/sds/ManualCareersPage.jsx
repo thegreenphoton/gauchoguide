@@ -54,7 +54,7 @@ const SdsManual = () => {
         localStorage.setItem('selectedCareers', JSON.stringify(formattedCareers)); 
     
         try {
-            const response = await axios.post('http://localhost:8000/api/electives/', {
+            const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/electives/`, {
                 manualRoute: true,
                 selectedCareers: formattedCareers, // Send formatted data
                 major: "sds"

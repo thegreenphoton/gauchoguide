@@ -50,7 +50,11 @@ LOGGING = {
 
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',                     # For local development
+    '127.0.0.1',                     # Local IP
+    'backend-divine-bird-6088.fly.dev', 
+]
 
 
 # Application definition
@@ -141,6 +145,8 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+APPEND_SLASH = True
 
 
 # Static files (CSS, JavaScript, Images)

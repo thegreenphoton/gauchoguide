@@ -27,7 +27,7 @@ const EEElectives = () => {
                     console.log('Sending Manual Route Data:', selectedCareers); 
     
                     // Send POST request with formatted careers
-                    const response = await axios.post('http://127.0.0.1:8000/api/electives/', {
+                    const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/electives/`, {
                         manualRoute: true,
                         selectedCareers: selectedCareers, 
                         major: "ee"
@@ -46,7 +46,7 @@ const EEElectives = () => {
                         return;
                     }
     
-                    const response = await axios.post('http://127.0.0.1:8000/api/electives/', {
+                    const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/electives/`, {
                         manualRoute: false,
                         exampleStudent: exampleStudent,
                         major: "ee"
